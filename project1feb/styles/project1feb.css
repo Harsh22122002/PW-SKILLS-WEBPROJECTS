@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 li{
     list-style: none;
@@ -34,6 +35,9 @@ button:hover{
     color: black;
     border: 1px solid black;
 }
+header{
+    padding: 15px 0;
+}
 nav{
     display: flex;
     width: 100%;
@@ -56,7 +60,7 @@ nav ul li:hover{
 }
 .search-field{
     display: flex;
-    gap: 35px;
+    gap: 30px;
 }
 input{
     padding: 4px 10px;
@@ -64,20 +68,38 @@ input{
 .hero-section{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    /*margin-left: 50px;*/
+
+    height: 60vh;
+    
+}
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    padding: 20px;
 }
 .hero-section-left h1{
      font-size: 40px;
      margin-bottom: 20px;
      font-weight: 700;
+
 }
 .hero-section-left h1 span{
     color: rgb(18,155,155);
     font-weight: 900;
     font-size: 2.5 rem;
+    
+    padding : 0 15px;
 }
 .hero-section-left p{
     font-weight: 
     500;
+    font-size: 30;
+}
+img{
+    margin-top: 70px;
 }
 .hero-section-left p span{
     font-weight: 700;
@@ -90,12 +112,22 @@ input{
     width: 40%;
     align-items: center;
     justify-content: center;
+    gap:30px
+}
+.hero-section-right-btn{
+    margin-bottom: 50px;
+    padding: 10px 10px;
+
+}
+i{
+    color: black;
 }
 footer{
     display: flex;
     align-items: center;
     padding: 20px 0;
-    justify-content: space space-around;
+    justify-content: space-around;
+    font-weight: 600;
 }
 footer ul{
     display: flex;
@@ -104,7 +136,16 @@ footer ul{
 }
 footer p{
     font-weight: 600;
+    margin-left: 50px;
 
+}
+.hero-section-right img{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+}
+a{
+    color: black;
 }
 
 
